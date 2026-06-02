@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mastercleanpro.de/sitemap.xml

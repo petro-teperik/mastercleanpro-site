@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Master Clean Pro Logo">
+  <rect width="512" height="512" rx="104" fill="#0b1526"/>
+  <path d="M256 70l150 58v106c0 96-61 177-150 208-89-31-150-112-150-208V128l150-58z" fill="#1267d8" stroke="#e7eef8" stroke-width="18"/>
+  <path d="M256 151c43 55 76 95 76 144 0 45-34 78-76 78s-76-33-76-78c0-49 33-89 76-144z" fill="#ffffff"/>
+  <path d="M223 304c20 20 48 22 70 2" fill="none" stroke="#1267d8" stroke-width="18" stroke-linecap="round"/>
+  <text x="256" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="38" fill="#ffffff">MASTER CLEAN</text>
+</svg>
