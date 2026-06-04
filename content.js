@@ -11,7 +11,7 @@ window.siteContent = {
     country: "Deutschland",
     phoneDisplay: "+49 178 9233032",
     phoneHref: "+491789233032",
-    email: "141176petr@gmail.com",
+    email: "mastercleanpro.info@gmail.com",
     serviceArea: "Wiesbaden, Mainz und Frankfurt am Main",
     whatsappText: "Hallo Master Clean Pro, ich möchte eine Reinigung anfragen. Ich sende Ihnen Fotos und bitte um eine Preiseinschätzung."
   },
