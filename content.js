@@ -17,20 +17,13 @@ window.siteContent = {
   },
 
   hero: {
-    badge: "MASTER CLEAN PRO",
     title: "Polster-, Leder- & Autositzreinigung",
     subtitle: "Professionelle Reinigung und Pflege von Sofas, Sesseln, Ledermöbeln und Autositzen – bei Ihnen vor Ort in Wiesbaden, Mainz & Frankfurt.",
     note: "Schonend. Gründlich. Sicher für Familie und Haustiere.",
     primaryButton: "Jetzt anfragen",
     secondaryButton: "Sofort anrufen",
     whatsappButton: "WhatsApp schreiben",
-    image: "assets/images/hero-polsterreinigung-wiesbaden-photo.png",
-    trust: [
-      "Mobile Reinigung vor Ort",
-      "Für Stoff, Leder & Autositze",
-      "Wiesbaden · Mainz · Frankfurt",
-      "Sicher für Kinder & Haustiere"
-    ]
+    image: "assets/images/hero-approved.png"
   },
 
   trust: [
@@ -103,7 +96,7 @@ window.siteContent = {
     },
     {
       q: "Ist die Reinigung für Kinder und Haustiere geeignet?",
-      a: "Wir arbeiten materialschonend und achten auf eine gründliche Entfernung von Rückständen. Nach der Reinigung sollte das Möbelstück vollständig trocknen."
+      a: "Ja. Wir verwenden professionelle, hypoallergene und zertifizierte Reinigungsmittel aus Deutschland, die für Haushalte mit Kindern und Haustieren geeignet sind. Die Polster werden gründlich mit einem professionellen Extraktionsgerät ausgespült, sodass Schmutz und Reinigungsrückstände zuverlässig entfernt werden. Nach der vollständigen Trocknung kann das Möbelstück wieder sicher genutzt werden."
     },
     {
       q: "Muss ich Möbel vorbereiten?",

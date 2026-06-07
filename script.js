@@ -53,15 +53,10 @@ function imageOrPlaceholder(item, className = 'card-image') {
 }
 
 function setupHero() {
-  const hero = document.querySelector('.hero-polsterreinigung');
-  const trustTarget = document.getElementById('heroTrust');
+  const heroImage = document.querySelector('[data-hero-image]');
 
-  if (hero && content.hero.image) {
-    hero.style.setProperty('--hero-bg-image', `url("${escapeAttribute(content.hero.image)}")`);
-  }
-
-  if (trustTarget && Array.isArray(content.hero.trust)) {
-    trustTarget.innerHTML = content.hero.trust.map((item) => `<span>${item}</span>`).join('');
+  if (heroImage && content.hero.image) {
+    heroImage.setAttribute('src', content.hero.image);
   }
 }
 
