@@ -159,9 +159,10 @@ h2 { font-size: clamp(1.7rem, 3vw, 2.6rem); line-height: 1.14; margin: 10px 0 14
 .btn-primary:hover { background: var(--primary-dark); }
 .btn-secondary { background: rgba(255,255,255,0.82); color: var(--dark); border-color: rgba(11,35,65,0.26); }
 .btn-secondary:hover { border-color: var(--dark); background: #fff; }
+.hero-mobile-cta { display: none; }
 .full { width: 100%; }
 .hero-whatsapp {
-  display: inline-flex;
+  display: none;
   margin-top: 4px;
   color: var(--dark);
   font-weight: 800;
@@ -375,6 +376,12 @@ input, select, textarea { width: 100%; border: 1px solid var(--border); border-r
     padding: 11px 18px;
     border-radius: 11px;
   }
+  .hero-desktop-cta {
+    display: none;
+  }
+  .hero-mobile-cta {
+    display: inline-flex;
+  }
   .hero-actions .btn-primary {
     order: 2;
     background: rgba(255,255,255,0.82);
@@ -522,6 +529,12 @@ input, select, textarea { width: 100%; border: 1px solid var(--border); border-r
     max-width: none;
     min-height: 40px;
     padding: 9px 16px;
+  }
+  .hero-desktop-cta {
+    display: none;
+  }
+  .hero-mobile-cta {
+    display: inline-flex;
   }
   .hero-whatsapp {
     order: 4;
