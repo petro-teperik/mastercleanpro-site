@@ -20,9 +20,8 @@ window.siteContent = {
     title: "Polster-, Leder- & Autositzreinigung",
     subtitle: "Professionelle Reinigung und Pflege von Sofas, Sesseln, Ledermöbeln und Autositzen – bei Ihnen vor Ort in Wiesbaden, Mainz & Frankfurt.",
     note: "Schonend. Gründlich. Sicher für Familie und Haustiere.",
-    primaryButton: "Jetzt anfragen",
+    primaryButton: "Fotos senden & Preis erhalten",
     secondaryButton: "Jetzt anrufen",
-    whatsappButton: "WhatsApp schreiben",
     image: "assets/images/hero-approved.png"
   },
 

@@ -159,17 +159,7 @@ h2 { font-size: clamp(1.7rem, 3vw, 2.6rem); line-height: 1.14; margin: 10px 0 14
 .btn-primary:hover { background: var(--primary-dark); }
 .btn-secondary { background: rgba(255,255,255,0.82); color: var(--dark); border-color: rgba(11,35,65,0.26); }
 .btn-secondary:hover { border-color: var(--dark); background: #fff; }
-.hero-mobile-cta { display: none; }
 .full { width: 100%; }
-.hero-whatsapp {
-  display: none;
-  margin-top: 4px;
-  color: var(--dark);
-  font-weight: 800;
-  text-decoration: underline;
-  text-decoration-color: rgba(201,164,92,0.72);
-  text-underline-offset: 5px;
-}
 .trust-section { padding: 28px 0; border-bottom: 1px solid var(--border); }
 .trust-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
 .trust-item { background: var(--card); border: 1px solid var(--border); padding: 18px; border-radius: 18px; font-weight: 750; }
@@ -376,47 +366,11 @@ input, select, textarea { width: 100%; border: 1px solid var(--border); border-r
     padding: 11px 18px;
     border-radius: 11px;
   }
-  .hero-desktop-cta {
-    display: none;
-  }
-  .hero-mobile-cta {
-    display: inline-flex;
-  }
   .hero-actions .btn-primary {
-    order: 2;
-    background: rgba(255,255,255,0.82);
-    color: var(--dark);
-    border-color: rgba(11,35,65,0.2);
-    box-shadow: none;
+    order: 1;
   }
   .hero-actions .btn-secondary {
-    order: 1;
-    font-size: 0;
-  }
-  .hero-actions .btn-secondary::before {
-    content: "Jetzt anrufen";
-    font-size: 1rem;
-  }
-  .hero-whatsapp {
-    order: 4;
-    display: inline-flex;
-    min-height: 50px;
-    max-width: 300px;
-    margin: 18px 0 0;
-    padding: 12px 18px;
-    border: 1px solid transparent;
-    border-radius: 11px;
-    background: var(--primary);
-    color: #fff;
-    box-shadow: 0 12px 28px rgba(201,164,92,0.28);
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    font-size: 0;
-  }
-  .hero-whatsapp::before {
-    content: "Fotos senden & Preis erhalten";
-    font-size: 1rem;
+    order: 2;
   }
 }
 
@@ -448,8 +402,7 @@ input, select, textarea { width: 100%; border: 1px solid var(--border); border-r
     transform: translateX(-31%);
   }
   .hero-actions,
-  .hero-actions .btn,
-  .hero-whatsapp {
+  .hero-actions .btn {
     max-width: 300px;
   }
   .btn {
@@ -529,32 +482,6 @@ input, select, textarea { width: 100%; border: 1px solid var(--border); border-r
     max-width: none;
     min-height: 40px;
     padding: 9px 16px;
-  }
-  .hero-desktop-cta {
-    display: none;
-  }
-  .hero-mobile-cta {
-    display: inline-flex;
-  }
-  .hero-whatsapp {
-    order: 4;
-    min-height: 40px;
-    max-width: max-content;
-    margin: 10px 0 0;
-    padding: 9px 14px;
-    border: 1px solid transparent;
-    border-radius: 10px;
-    background: var(--primary);
-    color: #fff;
-    box-shadow: 0 10px 24px rgba(201,164,92,0.22);
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    font-size: 0;
-  }
-  .hero-whatsapp::before {
-    content: "Fotos senden & Preis erhalten";
-    font-size: 0.95rem;
   }
   .hero-photo {
     object-position: 70% center;
