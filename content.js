@@ -13,36 +13,36 @@ window.siteContent = {
     phoneHref: "+491789233032",
     email: "mastercleanpro.info@gmail.com",
     serviceArea: "Wiesbaden, Mainz und Frankfurt am Main",
-    whatsappText: "Hallo Master Clean Pro, ich möchte eine Reinigung anfragen. Ich sende Ihnen Fotos und bitte um eine Preiseinschätzung."
+    whatsappText: "Hallo Master Clean Pro, ich möchte eine Polsterreinigung anfragen. Ich sende Fotos und meinen Standort. Bitte nennen Sie mir eine Preiseinschätzung und mögliche Termine."
   },
 
   hero: {
-    title: "Polster-, Leder- & Autositzreinigung",
-    subtitle: "Professionelle Reinigung und Pflege von Sofas, Sesseln, Ledermöbeln und Autositzen – bei Ihnen vor Ort in Wiesbaden, Mainz & Frankfurt.",
-    note: "Schonend. Gründlich. Sicher für Familie und Haustiere.",
+    title: "Polsterreinigung in Wiesbaden – Preis per WhatsApp erhalten",
+    subtitle: "Sofa, Sessel, Stühle und Autositze professionell vor Ort reinigen lassen. Senden Sie Fotos per WhatsApp – wir geben Ihnen schnell eine ehrliche Preiseinschätzung.",
+    note: "Vor Ort in Wiesbaden, Mainz und Frankfurt. Termine oft kurzfristig möglich.",
     primaryButton: "Fotos senden & Preis erhalten",
     secondaryButton: "Jetzt anrufen",
     image: "assets/images/hero-approved.png"
   },
 
   trust: [
-    "Professioneller Extraktor Santoemma Sabrina SW15",
-    "Transparente Preise ab 35 €",
-    "Fotos senden & Einschätzung erhalten",
-    "Schonende Reinigung für Polster und Leder"
+    "Preis per WhatsApp nach Fotos",
+    "Vor-Ort-Service in Wiesbaden, Mainz & Frankfurt",
+    "Sofas, Sessel, Stühle, Autositze",
+    "Schonend für Familien und Haustiere"
   ],
 
   services: [
     {
       id: "polster",
       title: "Polsterreinigung",
-      subtitle: "Sofas, Sessel, Stühle und Matratzen",
+      subtitle: "Sofas, Sessel, Stühle und Autositze",
       text: "Wir reinigen Polstermöbel gründlich und materialschonend. Flecken, Alltagsschmutz und Gerüche werden professionell behandelt.",
       image: "images/services/polsterreinigung.jpg"
     },
     {
       id: "leder",
-      title: "Ledermöbel-Restaurierung",
+      title: "Ledermöbel-Reinigung / Pflege",
       subtitle: "Pflege, Auffrischung und lokale Reparatur",
       text: "Wir behandeln Abnutzung, Kratzer, Farbverlust und kleinere Beschädigungen. Das Ergebnis hängt vom Zustand, der Lederart und der Tiefe der Beschädigung ab.",
       image: "images/services/lederrestaurierung.jpg"
@@ -60,17 +60,17 @@ window.siteContent = {
     { title: "3-Sitzer Sofa", description: "Dreiersofa / Couch", price: "ab 99 €" },
     { title: "2-Sitzer Sofa", description: "Zweisitzer Sofa", price: "ab 70 €" },
     { title: "Sessel", description: "Polstersessel", price: "ab 35 €" },
-    { title: "Stuhl", description: "Polsterstuhl", price: "ab 20–35 €" },
+    { title: "Stuhl", description: "Polsterstuhl", price: "ab 35 €" },
     { title: "Autositzreinigung", description: "Ein Autositz", price: "ab 35 €" },
     { title: "Kindersitzreinigung", description: "Kindersitz / Babyschale", price: "ab 35 €" },
-    { title: "Mindestauftrag", description: "Mindestwert pro Termin", price: "ab 70 €" },
+    { title: "Mindestauftrag pro Termin", description: "Mindestwert pro Termin", price: "ab 70 €" },
     { title: "Anfahrt Frankfurt am Main", description: "Je nach Entfernung", price: "ab 20 €" },
-    { title: "Ledermöbel-Restaurierung", description: "Nach Zustand und Aufwand", price: "Preis nach Begutachtung" }
+    { title: "Ledermöbel-Reinigung / Pflege", description: "Nach Zustand und Aufwand", price: "Preis nach Begutachtung" }
   ],
 
   process: [
-    { step: "01", title: "Fotos senden", text: "Senden Sie uns Fotos per WhatsApp oder E-Mail." },
-    { step: "02", title: "Einschätzung erhalten", text: "Wir nennen Ihnen eine transparente Preiseinschätzung." },
+    { step: "01", title: "Foto schicken", text: "Senden Sie uns Fotos per WhatsApp oder E-Mail." },
+    { step: "02", title: "Preis erhalten", text: "Wir nennen Ihnen eine transparente Preiseinschätzung." },
     { step: "03", title: "Termin vereinbaren", text: "Wir kommen zu Ihnen nach Hause oder zum Fahrzeug." },
     { step: "04", title: "Reinigung durchführen", text: "Wir reinigen gründlich, materialschonend und professionell." }
   ],
