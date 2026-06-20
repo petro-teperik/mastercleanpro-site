@@ -1,0 +1,8 @@
+
+# Local agent / working files
+.agents/
+skills-lock.json
+marketing/
+
+# macOS
+.DS_Store
