@@ -95,7 +95,7 @@ window.siteContent = {
     },
     {
       q: "Ist die Reinigung für Kinder und Haustiere geeignet?",
-      a: "Ja. Wir verwenden professionelle, hypoallergene und zertifizierte Reinigungsmittel aus Deutschland, die für Haushalte mit Kindern und Haustieren geeignet sind. Die Polster werden gründlich mit einem professionellen Extraktionsgerät ausgespült, sodass Schmutz und Reinigungsrückstände zuverlässig entfernt werden. Nach der vollständigen Trocknung kann das Möbelstück wieder sicher genutzt werden."
+      a: "Ja. Wir verwenden professionelle Reinigungsmittel. Die Polster werden gründlich mit einem professionellen Extraktionsgerät ausgespült, sodass Schmutz und Reinigungsrückstände zuverlässig entfernt werden. Nach der vollständigen Trocknung kann das Möbelstück wieder sicher genutzt werden."
     },
     {
       q: "Muss ich Möbel vorbereiten?",
