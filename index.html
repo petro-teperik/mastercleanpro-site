@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png?v=20260608-mc-letters-only">
   <link rel="icon" href="assets/images/favicon.ico?v=20260608-mc-letters-only">
   <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png?v=20260608-mc-letters-only">
-  <link rel="stylesheet" href="style.css?v=20260607-contact-copy-break">
+  <link rel="stylesheet" href="style.css?v=20261004-form-telegram">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -441,12 +441,14 @@
           <p class="contact-line"><strong>Telefon:</strong> <a href="tel:+491789233032" data-phone-text data-phone-link>+49 178 9233032</a></p>
           <p class="contact-line"><strong>E-Mail:</strong> <a href="mailto:mastercleanpro.info@gmail.com" data-email-text data-email-link>mastercleanpro.info@gmail.com</a></p>
         </div>
-        <form class="contact-form" action="mailto:mastercleanpro.info@gmail.com" method="post" enctype="text/plain">
-          <label>Name<input name="Name" type="text" required></label>
-          <label>Telefon / WhatsApp<input name="Telefon / WhatsApp" type="tel" required></label>
-          <label>Nachricht<textarea name="Nachricht"></textarea></label>
+        <form class="contact-form" id="contactForm" action="mailto:mastercleanpro.info@gmail.com" method="post" enctype="text/plain">
+          <label>Name<input name="Name" type="text" autocomplete="name" maxlength="100" required></label>
+          <label>Telefon / WhatsApp<input name="Telefon / WhatsApp" type="tel" autocomplete="tel" maxlength="30" required></label>
+          <label>Nachricht<textarea name="Nachricht" maxlength="2000"></textarea></label>
+          <label class="form-hp" aria-hidden="true">Website<input name="website" type="text" tabindex="-1" autocomplete="off"></label>
           <p class="privacy-note">Mit dem Absenden des Formulars erklären Sie sich damit einverstanden, dass wir Ihre Angaben zur Bearbeitung Ihrer Anfrage verwenden. Weitere Informationen finden Sie in unserer <a href="datenschutz.html">Datenschutzerklärung</a>.</p>
           <button class="btn btn-primary full" type="submit">Anfrage senden</button>
+          <p class="form-status" role="status" aria-live="polite" hidden></p>
         </form>
       </div>
     </section>
@@ -467,6 +469,6 @@
   </footer>
 
   <script src="content.js?v=20260607-faq-family-safe"></script>
-  <script src="script.js?v=20260607-hero-responsive-grid"></script>
+  <script src="script.js?v=20261004-form-telegram"></script>
 </body>
 </html>

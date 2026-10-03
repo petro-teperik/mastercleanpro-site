@@ -135,6 +135,51 @@ function setupMobileNav() {
   nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => nav.classList.remove('open')));
 }
 
+// Sends the contact form to the Lead Hub server (Telegram), no e-mail program needed.
+const FORM_ENDPOINT = 'https://leads.mastercleanpro.de/webhooks/website';
+
+function setupContactForm() {
+  const form = document.getElementById('contactForm');
+  if (!form || !window.fetch) return;
+  const status = form.querySelector('.form-status');
+  const button = form.querySelector('button[type="submit"]');
+  const show = (text, ok) => {
+    status.hidden = false;
+    status.className = 'form-status ' + (ok ? 'ok' : 'error');
+    status.textContent = text;
+  };
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const data = {
+      name: form.elements['Name'].value,
+      phone: form.elements['Telefon / WhatsApp'].value,
+      message: form.elements['Nachricht'].value,
+      website: form.elements['website'].value
+    };
+    button.disabled = true;
+    try {
+      const response = await fetch(FORM_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+      if (response.status === 201 || response.status === 202) {
+        form.reset();
+        show('Vielen Dank! Ihre Anfrage ist bei uns angekommen. Wir melden uns schnell per Telefon oder WhatsApp.', true);
+      } else if (response.status === 422) {
+        show('Bitte prüfen Sie Ihren Namen und Ihre Telefonnummer.', false);
+      } else {
+        throw new Error('status ' + response.status);
+      }
+    } catch (error) {
+      show(`Senden hat leider nicht geklappt. Bitte schreiben Sie uns per WhatsApp oder rufen Sie an: ${content.company.phoneDisplay}.`, false);
+    } finally {
+      button.disabled = false;
+    }
+  });
+}
+
 setTextByDataContent();
 setupLinks();
 setupHero();
@@ -145,3 +190,4 @@ renderProcess();
 renderGallery();
 renderFaq();
 setupMobileNav();
+setupContactForm();

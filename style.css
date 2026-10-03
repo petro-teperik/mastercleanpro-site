@@ -218,6 +218,10 @@ input, select, textarea { width: 100%; border: 1px solid var(--border); border-r
 .contact-form textarea { min-height: 58px; max-height: 80px; resize: vertical; }
 .contact-form .btn { min-height: 38px; padding: 8px 14px; border-radius: 9px; font-size: 0.95rem; }
 .privacy-note { color: var(--muted) !important; font-size: 0.72rem; line-height: 1.28; margin: 0; }
+.form-hp { position: absolute !important; left: -10000px !important; width: 1px; height: 1px; overflow: hidden; }
+.form-status { margin: 0; font-size: 0.86rem; font-weight: 650; line-height: 1.35; }
+.form-status.ok { color: #1e7a3c; }
+.form-status.error { color: #b3261e; }
 .contact-line a { text-decoration: underline; }
 
 .owner-trust {
