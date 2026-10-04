@@ -13,34 +13,221 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "@id": "https://mastercleanpro.de/#business",
-  "name": "Master Clean Pro",
-  "description": "Polsterreinigung, Lederpflege und Autositzreinigung vor Ort in Wiesbaden, Mainz und Frankfurt am Main.",
-  "url": "https://mastercleanpro.de/",
-  "telephone": "+49 178 9233032",
-  "email": "mastercleanpro.info@gmail.com",
-  "logo": "https://mastercleanpro.de/assets/images/logo-header.png",
-  "image": "https://mastercleanpro.de/assets/images/petr-trust-photo.png",
-  "priceRange": "ab 35 €",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Wiesbaden",
-    "postalCode": "65193",
-    "addressCountry": "DE"
-  },
-  "areaServed": [
+  "@graph": [
     {
-      "@type": "City",
-      "name": "Wiesbaden"
+      "@type": "LocalBusiness",
+      "@id": "https://mastercleanpro.de/#business",
+      "name": "Master Clean Pro",
+      "description": "Polsterreinigung, Lederpflege und Autositzreinigung vor Ort in Wiesbaden, Mainz und Frankfurt am Main. Preiseinschätzung nach Fotos per WhatsApp.",
+      "url": "https://mastercleanpro.de/",
+      "telephone": "+49 178 9233032",
+      "email": "mastercleanpro.info@gmail.com",
+      "logo": "https://mastercleanpro.de/assets/images/logo-header.png",
+      "image": "https://mastercleanpro.de/assets/images/petr-trust-photo.png",
+      "priceRange": "ab 35 €",
+      "currenciesAccepted": "EUR",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sonnenberger Straße 32",
+        "addressLocality": "Wiesbaden",
+        "postalCode": "65193",
+        "addressRegion": "Hessen",
+        "addressCountry": "DE"
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "Petro Teperik"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "15:00"
+        }
+      ],
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Wiesbaden"
+        },
+        {
+          "@type": "City",
+          "name": "Mainz"
+        },
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        }
+      ],
+      "knowsAbout": [
+        "Polsterreinigung",
+        "Sofareinigung",
+        "Sesselreinigung",
+        "Ledermöbel-Reinigung",
+        "Lederpflege",
+        "Autositzreinigung",
+        "Kindersitzreinigung",
+        "Geruchsentfernung bei Polstermöbeln"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Preise Polsterreinigung",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": 99,
+              "priceCurrency": "EUR"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Reinigung 3-Sitzer Sofa",
+              "description": "Dreiersofa / Couch"
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": 70,
+              "priceCurrency": "EUR"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Reinigung 2-Sitzer Sofa",
+              "description": "Zweisitzer Sofa"
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": 35,
+              "priceCurrency": "EUR"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Sesselreinigung",
+              "description": "Polstersessel"
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": 35,
+              "priceCurrency": "EUR"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Stuhlreinigung",
+              "description": "Polsterstuhl"
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": 35,
+              "priceCurrency": "EUR"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Autositzreinigung",
+              "description": "Ein Autositz"
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": 35,
+              "priceCurrency": "EUR"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Kindersitzreinigung",
+              "description": "Kindersitz / Babyschale"
+            }
+          }
+        ]
+      }
     },
     {
-      "@type": "City",
-      "name": "Mainz"
+      "@type": "WebSite",
+      "@id": "https://mastercleanpro.de/#website",
+      "url": "https://mastercleanpro.de/",
+      "name": "Master Clean Pro",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://mastercleanpro.de/#business"
+      }
     },
     {
-      "@type": "City",
-      "name": "Frankfurt am Main"
+      "@type": "FAQPage",
+      "@id": "https://mastercleanpro.de/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie lange trocknet ein Sofa nach der Reinigung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In der Regel mehrere Stunden. Die genaue Trocknungszeit hängt vom Material, der Raumtemperatur, der Belüftung und dem Verschmutzungsgrad ab."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann jede Lederbeschädigung repariert werden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. Das Ergebnis hängt vom Zustand, der Lederart und der Tiefe der Beschädigung ab. Wir geben vorab eine ehrliche Einschätzung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist die Reinigung für Kinder und Haustiere geeignet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Wir verwenden professionelle Reinigungsmittel. Die Polster werden gründlich mit einem professionellen Extraktionsgerät ausgespült, sodass Schmutz und Reinigungsrückstände zuverlässig entfernt werden. Nach der vollständigen Trocknung kann das Möbelstück wieder sicher genutzt werden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Muss ich Möbel vorbereiten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bitte entfernen Sie persönliche Gegenstände und sorgen Sie für freien Zugang. Alles Weitere besprechen wir vor dem Termin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann ich Fotos per WhatsApp senden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Senden Sie uns Fotos per WhatsApp, damit wir den Zustand besser einschätzen und einen Preis nennen können."
+          }
+        }
+      ]
     }
   ]
 }
