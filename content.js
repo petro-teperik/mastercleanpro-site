@@ -64,6 +64,7 @@ window.siteContent = {
     { title: "Autositzreinigung", description: "Ein Autositz", price: "ab 35 €" },
     { title: "Kindersitzreinigung", description: "Kindersitz / Babyschale", price: "ab 35 €" },
     { title: "Mindestauftrag pro Termin", description: "Mindestwert pro Termin", price: "ab 70 €" },
+    { title: "Anfahrt Mainz", description: "Je nach Stadtteil", price: "ab 10 €" },
     { title: "Anfahrt Frankfurt am Main", description: "Je nach Entfernung", price: "ab 20 €" },
     { title: "Ledermöbel-Reinigung / Pflege", description: "Nach Zustand und Aufwand", price: "Preis nach Begutachtung" }
   ],
