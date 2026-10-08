@@ -57,16 +57,17 @@ window.siteContent = {
   ],
 
   prices: [
-    { title: "3-Sitzer Sofa", description: "Dreiersofa / Couch", price: "ab 99 €" },
-    { title: "2-Sitzer Sofa", description: "Zweisitzer Sofa", price: "ab 70 €" },
-    { title: "Sessel", description: "Polstersessel", price: "ab 35 €" },
-    { title: "Stuhl", description: "Polsterstuhl", price: "ab 35 €" },
+    { title: "3-Sitzer Sofa", description: "Dreiersofa / Couch", price: "ab 119 €" },
+    { title: "2-Sitzer Sofa", description: "Zweisitzer Sofa", price: "ab 89 €" },
+    { title: "Ecksofa / Wohnlandschaft", description: "Großes Ecksofa oder Wohnlandschaft", price: "ab 159 €" },
+    { title: "Sessel", description: "Polstersessel", price: "ab 39 €" },
+    { title: "Stuhl", description: "Polsterstuhl", price: "ab 25 €" },
     { title: "Autositzreinigung", description: "Ein Autositz", price: "ab 35 €" },
+    { title: "Auto komplett", description: "Vordersitze & Rückbank", price: "ab 89 €" },
     { title: "Kindersitzreinigung", description: "Kindersitz / Babyschale", price: "ab 35 €" },
-    { title: "Mindestauftrag pro Termin", description: "Mindestwert pro Termin", price: "ab 70 €" },
-    { title: "Anfahrt Mainz", description: "Je nach Stadtteil", price: "ab 10 €" },
-    { title: "Anfahrt Frankfurt am Main", description: "Je nach Entfernung", price: "ab 20 €" },
-    { title: "Ledermöbel-Reinigung / Pflege", description: "Nach Zustand und Aufwand", price: "Preis nach Begutachtung" }
+    { title: "Ledermöbel-Reinigung / Pflege", description: "Nach Zustand und Aufwand", price: "Preis nach Begutachtung" },
+    { title: "Mindestauftrag pro Termin", description: "Mindestwert pro Termin", price: "79 €" },
+    { title: "Anfahrt", description: "Wiesbaden, Mainz, Frankfurt & Umgebung", price: "inklusive" }
   ],
 
   process: [
