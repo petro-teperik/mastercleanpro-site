@@ -43,8 +43,8 @@ window.siteContent = {
     {
       id: "leder",
       title: "Ledermöbel-Reinigung / Pflege",
-      subtitle: "Pflege, Auffrischung und lokale Reparatur",
-      text: "Wir behandeln Abnutzung, Kratzer, Farbverlust und kleinere Beschädigungen. Das Ergebnis hängt vom Zustand, der Lederart und der Tiefe der Beschädigung ab.",
+      subtitle: "Schonende Reinigung und Pflege",
+      text: "Wir reinigen Ledersofas, Sessel und andere Ledermöbel schonend und pflegen das Leder anschließend mit passenden Pflegemitteln.",
       image: "images/services/lederrestaurierung.jpg"
     },
     {
@@ -92,8 +92,8 @@ window.siteContent = {
       a: "In der Regel mehrere Stunden. Die genaue Trocknungszeit hängt vom Material, der Raumtemperatur, der Belüftung und dem Verschmutzungsgrad ab."
     },
     {
-      q: "Kann jede Lederbeschädigung repariert werden?",
-      a: "Nein. Das Ergebnis hängt vom Zustand, der Lederart und der Tiefe der Beschädigung ab. Wir geben vorab eine ehrliche Einschätzung."
+      q: "Reparieren oder färben Sie Leder?",
+      a: "Nein. Wir reinigen und pflegen Ledermöbel. Reparaturen, Restaurierung und Nachfärben bieten wir nicht an."
     },
     {
       q: "Ist die Reinigung für Kinder und Haustiere geeignet?",
