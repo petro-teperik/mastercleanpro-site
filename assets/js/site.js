@@ -293,7 +293,7 @@
     try {
       const r = await fetch('https://leads.mastercleanpro.de/webhooks/website', { method: 'POST', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, phone, message: 'Rückruf gewünscht (Website)', website: form.elements.website.value }) });
-      if (r.status === 201 || r.status === 202) { form.reset(); say('Danke, ich rufe Sie zurück. Schneller geht es per WhatsApp.', true); }
+      if (r.status === 201 || r.status === 202) { form.reset(); window.dispatchEvent(new CustomEvent('mcp:lead', { detail: { method: 'form' } })); say('Danke, ich rufe Sie zurück. Schneller geht es per WhatsApp.', true); }
       else if (r.status === 422) say('Bitte prüfen Sie Namen und Telefonnummer.', false);
       else throw new Error(r.status);
     } catch (_) { say('Senden hat leider nicht geklappt. Bitte schreiben Sie per WhatsApp oder rufen Sie an: +49 178 9233032.', false); }
